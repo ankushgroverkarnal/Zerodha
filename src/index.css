@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: none;
+}
+
+
+.i:hover+.content {
+  display: block;
+  z-index: 111;
+
+}
+
+.content2 {
+  display: none;
+}
+
+
+.i2:hover+.content2 {
+  display: block;
+
+}
+
+.container::-webkit-scrollbar {
+  position: sticky;
+  
+}
+.container::-webkit-scrollbar-track{
+  left: 250px;
+  top: 0px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
